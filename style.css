@@ -31,19 +31,31 @@ a {
     text-decoration: none;
 }
 
-.left {
+.logo {
     font-size: 24px;
     color: #f9faf8;
 
 }
 
-.right {
+ul {
     font-size: 16px;
     color: #E5E7EB;
 }
 
 .one {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+}
+
+.one.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.one.right{
+    display: flex;
 }
 
 button {
