@@ -71,8 +71,6 @@ ul {
     align-items: center;
 }
 
-
-
 .image {
     background-color: rgb(142, 141, 141) ;
     text-align: center;
@@ -97,7 +95,9 @@ button {
     padding: 32px;
     text-align: center;
 }
-
+.info img{
+    max-width: 200px;
+}
 .title{
     color: #1f2937;
     font-size: 36px;
@@ -113,6 +113,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 52px;
+    padding: 12px;
 }
 
 
@@ -126,4 +127,46 @@ button {
     font-style: italic;
     color: #1f2937;
     font-size: 36px;
+}
+
+.quote{
+    padding: 60px 20px; 
+}
+
+.quote p{
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.four{
+    background: #3882f6;
+    width: 480px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    gap: 16px;
+    color: white;
+}
+
+.cta .header{
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta .text{
+    font-size: 16px;
+}
+
+  
+button.signup {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 8px 0;
+    border: 1px solid white;
+    color: white;
 }
