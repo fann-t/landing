@@ -95,9 +95,11 @@ button {
     padding: 32px;
     text-align: center;
 }
+
 .info img{
     max-width: 200px;
 }
+
 .title{
     color: #1f2937;
     font-size: 36px;
@@ -114,9 +116,14 @@ button {
     flex-direction: row;
     gap: 52px;
     padding: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-
+.info .text{
+    max-width: 200px;
+}
 
 .three {
     background-color: #e5E7EB;
@@ -140,21 +147,24 @@ button {
     font-size: 20px;
 }
 
+
 .four{
     background: #3882f6;
-    width: 480px;
     border-radius: 9px;
     display: flex;
-    justify-content: space-between;
-    padding: 18px;
+    justify-content: space-around;
+    padding: 40px;
     gap: 16px;
     color: white;
+    margin: 80px;
 }
+
 
 .cta .header{
     background: none;
     font-size: 18px;
     font-weight: bold;
+    padding: 8px 0;
 }
 
 .cta .text{
@@ -169,4 +179,12 @@ button.signup {
     margin: 8px 0;
     border: 1px solid white;
     color: white;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color:#e5E7EB ;
 }
