@@ -22,7 +22,7 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -47,8 +47,8 @@ ul {
     padding: 32px;
     display: flex;
     justify-content: space-between;
+    flex-flow: row;
     gap: 24px;
-    flex-grow: 1;
 }
 
 .input h2{
@@ -61,11 +61,24 @@ ul {
     color: #f9faf8
 }
 
+.one .left{
+    flex: 1 1 0;
+}
+
+.one .right{
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
 .image {
     background-color: rgb(142, 141, 141) ;
     text-align: center;
     text-wrap: nowrap;
-    padding: 36px;
+    padding: 80px;
+    flex-grow: 1
 }
 
 
@@ -82,7 +95,6 @@ button {
 .two {
     background-color: white;
     padding: 32px;
-    gap: 52px;
     text-align: center;
 }
 
